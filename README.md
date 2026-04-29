@@ -1,6 +1,6 @@
 # claude-code-config
 
-Portable [Claude Code](https://docs.anthropic.com/en/docs/claude-code) configuration: user-level settings, global `CLAUDE.md` guidelines, and custom skills (slash commands). One `bootstrap.sh` sets up a fresh machine or remote pod in seconds.
+Portable [Claude Code](https://docs.anthropic.com/en/docs/claude-code) configuration: user-level settings, global `CLAUDE.md` guidelines, and custom skills (slash commands). One `bootstrap.sh` sets up a fresh machine or remote GPU in seconds.
 
 ## What's in the box
 
