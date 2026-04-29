@@ -1,0 +1,38 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## Project overview
+
+<brief description of what this project does and its goals>
+
+## Guidelines for writing code
+
+- Keep the code as short, minimal, and concise as possible.
+- No comments, except for things that are really important and hard to get otherwise.
+- Take as long as you need, iterating to make it really simple and short and cutting out fluff.
+- Run <linter, e.g. `uv run ruff check`> on your code after every major addition or update.
+
+### Design docs
+
+Add codebase design decisions to `docs/design.md`. Keep additions very succinct, 1-2 points per decision.
+
+### Git & progress updates
+
+Make commits for every major change. Exercise your own judgement on what constitutes a major change, but in general try not to go overboard.
+Add progress updates to `docs/progress.md` alongside each git commit. Separate and timestamp each update, but keep the doc structure minimal and simple. Keep additions very succinct, 1-2 points per update.
+
+### Package Management Commands
+
+<project-specific commands, e.g.:>
+
+- Install dependencies: `uv add <package>`
+- Remove dependencies: `uv remove <package>`
+- Sync dependencies: `uv sync`
+
+### Running Code
+
+<project-specific run commands, e.g.:>
+
+- Run a Python script with `uv run <script-name>.py`
+- Run tests with `uv run pytest`
